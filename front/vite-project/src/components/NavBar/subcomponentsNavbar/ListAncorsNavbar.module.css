@@ -1,0 +1,9 @@
+.a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #1a2d32;
+}
+
+.li:hover {
+  border-bottom: 2px solid #5eafb2;
+}

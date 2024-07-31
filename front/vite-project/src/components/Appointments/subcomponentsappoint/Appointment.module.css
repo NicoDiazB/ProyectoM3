@@ -1,0 +1,45 @@
+.container {
+  width: 20rem;
+  height: 10rem;
+
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+
+  background-color: #bee3e3;
+  border-left: 3px solid #315459;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 1em;
+}
+
+.turno {
+  color: #2c474d;
+}
+
+.span {
+  font-weight: 600;
+}
+
+.button {
+  height: 19px;
+  position: relative;
+  left: 300px;
+  bottom: 180px;
+
+  color: #f1fafa;
+  background-color: #419599;
+
+  font-weight: 600;
+
+  padding: 3px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.p {
+  overflow-wrap: break-word;
+}

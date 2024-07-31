@@ -1,0 +1,52 @@
+:root {
+  background-color: #f7f7f7;
+  font-family: "Quicksand", sans-serif;
+  color: #2c474d;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: large;
+  font-weight: 500;
+}
+
+button {
+  color: #f1fafa;
+  background-color: #419599;
+
+  font-size: small;
+  font-weight: 600;
+  border-radius: 15px;
+}
+label {
+  margin-top: 15px;
+  font-size: medium;
+  font-weight: 400;
+}
+
+input {
+  height: 2em;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}

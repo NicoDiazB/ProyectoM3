@@ -1,0 +1,22 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BD_NAME = exports.BD_PASSWORD = exports.BD_USERNAME = exports.BD_PORT = exports.BD_HOST = exports.BD_TYPE = exports.PORT = void 0;
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config({ path: "./src/config/.env" });
+const PORT = Number(process.env.PORT) || 3001;
+exports.PORT = PORT;
+const BD_TYPE = process.env.BD_TYPE || "postgres";
+exports.BD_TYPE = BD_TYPE;
+const BD_HOST = process.env.BD_HOST || "localhost";
+exports.BD_HOST = BD_HOST;
+const BD_PORT = Number(process.env.BD_PORT) || 5432;
+exports.BD_PORT = BD_PORT;
+const BD_USERNAME = process.env.BD_USERNAME || "test";
+exports.BD_USERNAME = BD_USERNAME;
+const BD_PASSWORD = process.env.BD_PASSWORD || "test";
+exports.BD_PASSWORD = BD_PASSWORD;
+const BD_NAME = process.env.BD_NAME || "test";
+exports.BD_NAME = BD_NAME;
